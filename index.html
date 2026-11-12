@@ -1,0 +1,360 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Portfolio de Belén Jiménez. Proyectos prácticos de Email Marketing y Klaviyo.">
+<title>Belén Jiménez | Email Marketing & Klaviyo</title>
+<style>
+:root {
+  --fondo:#171715;
+  --panel:#24231f;
+  --texto:#f3efe7;
+  --suave:#c5bdb0;
+  --acento:#c9aa87;
+  --linea:#49443d;
+}
+* {box-sizing:border-box}
+html {scroll-behavior:smooth}
+body {
+  margin:0;
+  background:var(--fondo);
+  color:var(--texto);
+  font-family:Arial,Helvetica,sans-serif;
+  line-height:1.7;
+}
+a {color:inherit}
+header {
+  padding:22px 7%;
+  border-bottom:1px solid var(--linea);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:20px;
+}
+.marca {font-size:14px;font-weight:bold;letter-spacing:2px}
+nav {display:flex;gap:22px;flex-wrap:wrap}
+nav a {font-size:13px;text-decoration:none;color:var(--suave)}
+nav a:hover {color:var(--acento)}
+section {padding:85px 7%;max-width:1250px;margin:auto}
+.etiqueta {
+  color:var(--acento);
+  font-size:12px;
+  letter-spacing:3px;
+  text-transform:uppercase;
+  font-weight:bold;
+}
+h1,h2,h3 {
+  font-family:Georgia,'Times New Roman',serif;
+  font-weight:normal;
+  line-height:1.18;
+}
+h1 {font-size:clamp(46px,7vw,94px);margin:25px 0}
+h2 {font-size:clamp(36px,5vw,62px);margin:18px 0 35px}
+h3 {font-size:28px;margin:10px 0}
+em {color:var(--acento);font-weight:normal}
+p {color:var(--suave)}
+.hero {
+  min-height:78vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.hero p {font-size:19px;max-width:680px}
+.boton {
+  display:inline-block;
+  background:var(--acento);
+  color:#171715;
+  padding:14px 25px;
+  margin-top:24px;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:14px;
+}
+.boton:hover {background:#e0c4a3}
+.separador {border-top:1px solid var(--linea)}
+.sobre-mi p {font-size:17px;max-width:100%;text-align:justify}
+.destacado {color:var(--texto);font-weight:bold}
+.cuadricula {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:20px;
+  margin-top:35px;
+}
+.tarjeta {
+  background:var(--panel);
+  border:1px solid var(--linea);
+  padding:32px;
+}
+.numero {color:var(--acento);font-size:13px;letter-spacing:2px}
+.tipo {
+  font-size:11px;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  color:var(--acento);
+}
+.tarjeta p {font-size:15px}
+.bloque {
+  border-top:1px solid var(--linea);
+  padding:28px 0;
+}
+.bloque h3 {font-size:30px}
+.habilidades {
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:25px;
+}
+.habilidades span {
+  border:1px solid var(--linea);
+  padding:9px 15px;
+  font-size:12px;
+  letter-spacing:1px;
+}
+.contacto {text-align:center;padding-bottom:110px}
+.contacto p {max-width:600px;margin:auto}
+footer {
+  border-top:1px solid var(--linea);
+  padding:25px 7%;
+  display:flex;
+  justify-content:space-between;
+  gap:15px;
+  flex-wrap:wrap;
+  color:var(--suave);
+  font-size:12px;
+}
+@media(max-width:700px) {
+  header {flex-direction:column;align-items:flex-start}
+  nav {gap:15px}
+  section {padding:65px 6%}
+  .cuadricula {grid-template-columns:1fr}
+  .tarjeta {padding:24px}
+  .sobre-mi p {text-align:left}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <a class="marca" href="#inicio" style="text-decoration:none">
+    BELÉN JIMÉNEZ
+  </a>
+  <nav>
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#flujos">Flujos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <div class="etiqueta">
+    Portfolio profesional · 2026
+  </div>
+  <h1>Email Marketing<br>
+    <em>& Klaviyo.</em>
+  </h1>
+  <p>
+    Estrategia, creatividad y automatización
+    para conectar marcas con personas.
+  </p>
+  <p>
+    Campañas, formularios de captación y flujos
+    automatizados diseñados para mejorar
+    la experiencia del cliente.
+  </p>
+  <div>
+    <a class="boton" href="#proyectos">
+      DESCUBRIR PROYECTOS ↗
+    </a>
+  </div>
+</section>
+
+<div class="separador"></div>
+
+<section class="sobre-mi" id="sobre-mi">
+  <div class="etiqueta">01 — Perfil profesional</div>
+  <h2>Sobre <em>mí.</em></h2>
+
+  <p>
+    Me he especializado en
+    <span class="destacado">Email Marketing para ecommerce</span>,
+    con especial interés en Klaviyo,
+    las automatizaciones y las estrategias
+    de retención de clientes.
+  </p>
+
+  <p>
+    Desarrollo proyectos prácticos que abarcan
+    desde la captación de suscriptores mediante
+    formularios y pop-ups hasta la creación
+    de campañas y secuencias automatizadas
+    de correo electrónico.
+  </p>
+
+  <p>
+    Me interesa combinar
+    <span class="destacado">estrategia, diseño y tecnología</span>
+    para crear comunicaciones claras, atractivas
+    y orientadas a objetivos.
+  </p>
+
+  <p>
+    Busco una oportunidad profesional para
+    seguir desarrollándome en Email Marketing,
+    CRM y Marketing Automation.
+  </p>
+</section>
+
+<div class="separador"></div>
+
+<section>
+  <div class="etiqueta">02 — Competencias</div>
+  <h2>De la estrategia <em>a la acción.</em></h2>
+  <div class="habilidades">
+    <span>KLAVIYO</span>
+    <span>EMAIL MARKETING</span>
+    <span>AUTOMATIZACIONES</span>
+    <span>POP-UPS</span>
+    <span>FORMULARIOS</span>
+    <span>SEGMENTACIÓN</span>
+    <span>CAMPAÑAS</span>
+    <span>RETENCIÓN</span>
+  </div>
+</section>
+
+<div class="separador"></div>
+
+<section id="proyectos">
+  <div class="etiqueta">03 — Proyectos prácticos</div>
+  <h2>Captación <em>y campañas.</em></h2>
+  <p>
+    Una selección de ejercicios de Email Marketing
+    desarrollados para demostrar mis habilidades
+    en creatividad, captación y comunicación.
+  </p>
+
+  <div class="cuadricula">
+
+    <article class="tarjeta">
+      <div class="numero">01 / CAPTACIÓN</div>
+      <h3>ZZEN</h3>
+      <div class="tipo">Black Friday</div>
+      <p>
+        Propuesta de pop-up para captar suscriptores
+        mediante una campaña de acceso anticipado
+        a las promociones de Black Friday.
+      </p>
+    </article>
+
+    <article class="tarjeta">
+      <div class="numero">02 / CAPTACIÓN</div>
+      <h3>Decathlon · Madeira</h3>
+      <div class="tipo">Sorteo y suscripción</div>
+      <p>
+        Diseño de un formulario de captación
+        vinculado a un sorteo de viaje a Madeira,
+        con una propuesta visual orientada
+        a incentivar el registro.
+      </p>
+    </article>
+
+    <article class="tarjeta">
+      <div class="numero">03 / CAPTACIÓN</div>
+      <h3>Susana Delgado Fisio</h3>
+      <div class="tipo">Formulario promocional</div>
+      <p>
+        Propuesta de captación para nuevos
+        clientes, combinando un incentivo
+        comercial con una comunicación cercana.
+      </p>
+    </article>
+
+    <article class="tarjeta">
+      <div class="numero">04 / CAPTACIÓN</div>
+      <h3>Inspira Pilates</h3>
+      <div class="tipo">Suscripción y reserva</div>
+      <p>
+        Formulario diseñado para despertar
+        interés en las clases y favorecer
+        nuevas inscripciones.
+      </p>
+    </article>
+
+  </div>
+</section>
+
+<div class="separador"></div>
+
+<section>
+  <div class="etiqueta">04 — Email Marketing</div>
+  <h2>Campañas <em>con intención.</em></h2>
+  <p>
+    Proyectos de diseño y maquetación de emails
+    promocionales, comunicaciones de producto
+    y campañas de temporada.
+  </p>
+  <p>
+    Cada propuesta busca combinar una
+    estructura visual clara, un mensaje
+    atractivo y una llamada a la acción
+    coherente con su objetivo.
+  </p>
+</section>
+
+<div class="separador"></div>
+
+<section id="flujos">
+  <div class="etiqueta">05 — Klaviyo</div>
+  <h2>Automatizaciones <em>que conectan.</em></h2>
+
+  <div class="bloque">
+    <div class="tipo">Caso práctico 01</div>
+    <h3>Decathlon · Madeira</h3>
+    <p>
+      Secuencia de tres emails diseñada para
+      dar la bienvenida a los participantes
+      de un sorteo, presentar la marca
+      y fomentar una primera compra.
+    </p>
+  </div>
+
+  <div class="bloque">
+    <div class="tipo">Caso práctico 02</div>
+    <h3>Inspira Pilates</h3>
+    <p>
+      Secuencia de tres emails orientada
+      a presentar las clases, comunicar
+      sus beneficios y estimular la reserva
+      mediante un incentivo.
+    </p>
+  </div>
+</section>
+
+<div class="separador"></div>
+
+<section class="contacto" id="contacto">
+  <div class="etiqueta">06 — Contacto</div>
+  <h2>¿Hablamos <em>de email marketing?</em></h2>
+  <p>
+    Estoy abierta a oportunidades profesionales
+    en Email Marketing, CRM y automatización.
+  </p>
+  <a class="boton"
+     href="https://www.linkedin.com/in/bel%C3%A9n-jim%C3%A9nez-65416a27/"
+     target="_blank"
+     rel="noopener noreferrer">
+    CONTACTAR POR LINKEDIN ↗
+  </a>
+</section>
+</main>
+
+<footer>
+  <span>© 2026 Belén Jiménez</span>
+  <span>Portfolio de proyectos prácticos · Klaviyo</span>
+</footer>
+
+</body>
+</html>
