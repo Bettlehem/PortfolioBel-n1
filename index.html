@@ -356,5 +356,169 @@ footer {
   <span>Portfolio de proyectos prácticos · Klaviyo</span>
 </footer>
 
+
+<style>
+.galeria-portfolio {
+  max-width:1250px;
+  margin:0 auto;
+  padding:65px 7%;
+  color:#f3efe7;
+}
+.galeria-portfolio h2 {
+  font-family:Georgia,serif;
+  font-size:clamp(34px,5vw,58px);
+}
+.galeria-portfolio h3 {
+  font-family:Georgia,serif;
+  font-size:30px;
+  margin-bottom:8px;
+}
+.galeria-portfolio p {color:#c5bdb0}
+.proyecto-visual {
+  border-top:1px solid #49443d;
+  padding:42px 0;
+}
+.imagenes-proyecto {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:16px;
+  align-items:start;
+  margin-top:22px;
+}
+.imagenes-proyecto img {
+  width:100%;
+  height:auto;
+  display:block;
+  border-radius:8px;
+  cursor:zoom-in;
+}
+.imagenes-proyecto a {
+  display:block;
+  background:#24231f;
+  border-radius:8px;
+  overflow:hidden;
+}
+.imagenes-proyecto.dos {
+  grid-template-columns:repeat(2,minmax(0,1fr));
+}
+@media(max-width:700px) {
+  .imagenes-proyecto,
+  .imagenes-proyecto.dos {
+    grid-template-columns:1fr;
+  }
+}
+</style>
+
+<section class="galeria-portfolio" id="galeria">
+  <div class="etiqueta">Proyectos visuales</div>
+  <h2>Mis trabajos en <em>Klaviyo.</em></h2>
+  <p>
+    Selección de proyectos prácticos de captación
+    y automatización. Haz clic en las imágenes
+    para verlas a mayor tamaño.
+  </p>
+
+  <article class="proyecto-visual">
+    <h3>01 · Decathlon Madeira</h3>
+    <p>Formulario de captación para un sorteo.</p>
+    <div class="imagenes-proyecto dos">
+      <a href="POP%20UP%201_Decathlon.PNG" target="_blank">
+        <img src="POP%20UP%201_Decathlon.PNG"
+             alt="Formulario Decathlon Madeira"
+             loading="lazy">
+      </a>
+    </div>
+  </article>
+
+  <article class="proyecto-visual">
+    <h3>02 · Susana Delgado Fisio</h3>
+    <p>Pop-ups de captación y promoción.</p>
+    <div class="imagenes-proyecto dos">
+      <a href="POP%20UP%201_Susanafisio.PNG" target="_blank">
+        <img src="POP%20UP%201_Susanafisio.PNG"
+             alt="Pop-up de fisioterapia"
+             loading="lazy">
+      </a>
+      <a href="POP%20UP%204_Susanafisio.PNG" target="_blank">
+        <img src="POP%20UP%204_Susanafisio.PNG"
+             alt="Segunda propuesta de fisioterapia"
+             loading="lazy">
+      </a>
+    </div>
+  </article>
+
+  <article class="proyecto-visual">
+    <h3>03 · Inspira Pilates</h3>
+    <p>Formularios para captar nuevas alumnas.</p>
+    <div class="imagenes-proyecto dos">
+      <a href="POP%20UP%205_Inspirapilates.PNG" target="_blank">
+        <img src="POP%20UP%205_Inspirapilates.PNG"
+             alt="Pop-up Inspira Pilates"
+             loading="lazy">
+      </a>
+      <a href="POP%20UP%206_Inspirapilates.PNG" target="_blank">
+        <img src="POP%20UP%206_Inspirapilates.PNG"
+             alt="Segunda propuesta Inspira Pilates"
+             loading="lazy">
+      </a>
+    </div>
+  </article>
+
+  <article class="proyecto-visual">
+    <h3>04 · ZZEN Black Friday</h3>
+    <p>Captación para una campaña promocional.</p>
+    <div class="imagenes-proyecto dos">
+      <a href="POP%20UP%201_Zzen.PNG" target="_blank">
+        <img src="POP%20UP%201_Zzen.PNG"
+             alt="Pop-up ZZEN Black Friday"
+             loading="lazy">
+      </a>
+    </div>
+  </article>
+
+  <article class="proyecto-visual">
+    <h3>05 · Flujo Decathlon</h3>
+    <p>
+      Bienvenida al concurso, presentación
+      de la marca e incentivo de compra.
+    </p>
+    <div class="imagenes-proyecto">
+      <a href="Automatizaci%C3%B3n%20Decathlon_1.JPG" target="_blank">
+        <img src="Automatizaci%C3%B3n%20Decathlon_1.JPG"
+             alt="Decathlon email 1" loading="lazy">
+      </a>
+      <a href="Automatizaci%C3%B3n%20Decathlon_2.JPG" target="_blank">
+        <img src="Automatizaci%C3%B3n%20Decathlon_2.JPG"
+             alt="Decathlon email 2" loading="lazy">
+      </a>
+      <a href="Automatizaci%C3%B3n%20Decathlon_3.JPG" target="_blank">
+        <img src="Automatizaci%C3%B3n%20Decathlon_3.JPG"
+             alt="Decathlon email 3" loading="lazy">
+      </a>
+    </div>
+  </article>
+
+  <article class="proyecto-visual">
+    <h3>06 · Flujo Inspira Pilates</h3>
+    <p>
+      Bienvenida, presentación de las clases
+      e incentivo para reservar.
+    </p>
+    <div class="imagenes-proyecto">
+      <a href="Automatizaci%C3%B3n%20Insp%20Pilates_1.PNG" target="_blank">
+        <img src="Automatizaci%C3%B3n%20Insp%20Pilates_1.PNG"
+             alt="Inspira Pilates email 1" loading="lazy">
+      </a>
+      <a href="Automatizaci%C3%B3n%20Insp%20Pilates_2.PNG" target="_blank">
+        <img src="Automatizaci%C3%B3n%20Insp%20Pilates_2.PNG"
+             alt="Inspira Pilates email 2" loading="lazy">
+      </a>
+      <a href="Automatizaci%C3%B3n%20Insp%20Pilates_3.JPG" target="_blank">
+        <img src="Automatizaci%C3%B3n%20Insp%20Pilates_3.JPG"
+             alt="Inspira Pilates email 3" loading="lazy">
+      </a>
+    </div>
+  </article>
+</section>
 </body>
 </html>
